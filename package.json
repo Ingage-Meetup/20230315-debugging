@@ -1,0 +1,25 @@
+{
+  "name": "20230315-debugging",
+  "version": "1.0.0",
+  "description": "C3 Meetup - 2023-03-15 - Code Debugging",
+  "main": "index.js",
+  "scripts": {
+    "example1": "jest src/example01",
+    "example2": "jest src/example02",
+    "example3": "jest src/example03",
+    "example4": "jest src/example04",
+    "example5": "jest src/example05",
+    "example6": "jest src/example06",
+    "example7": "jest src/example07",
+    "example8": "jest src/example08",
+    "example9": "jest src/example09",
+    "example10": "jest src/example10"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "jest": "^29.4.3",
+    "mocha": "^10.2.0"
+  }
+}
