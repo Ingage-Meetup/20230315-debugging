@@ -11,21 +11,13 @@ If you do not have node and npm installed or available, you will need to install
 Wait, rules? Yes, there are a few, mainly to keep us focused on the point of this meeting - to analyze and debug existing code.
 
 1. Before doing anything in an example, make sure you understand the desired outcome
-  * Take a few minutes to read the example's description, then run the unit tests to observe the problem(s)
+    * Take a few minutes to read the example's description, then run the unit tests to observe the problem(s)
 2. Try to determine the problem without using your computer
-  * After you see the problem, like last month, take some time to walk through the code (in your head, on paper, etc) to see if you can spot the error(s)
-  * If you think you've found it, make your updates and re-run the tests - if they pass, then move on to the next example. If they still fail, then continue in the example.
+    * After you see the problem, like last month, take some time to walk through the code (in your head, on paper, etc) to see if you can spot the error(s)
+    * If you think you've found it, make your updates and re-run the tests - if they pass, then move on to the next example. If they still fail, then continue in the example.
 3. Debug the problem
-  * Use whatever tools you are comfortable with, but we'd encourage you to get to know your IDE's debugger, rather than sprinkling `console.log` statements in the code
+    * Use whatever tools you are comfortable with, but we'd encourage you to get to know your IDE's debugger, rather than sprinkling `console.log` statements in the code
 4. Do not read the description and immediately begin writing a new solution (or Google a solution...)
-  * You may read the description on some of these and think, "I've done that 100 times before, I can just write that myself!". The point of this exercise is to find the bug(s) in the existing codebase and fix them, not to simply see a problem description and solve it.
+    * You may read the description on some of these and think, "I've done that 100 times before, I can just write that myself!". The point of this exercise is to find the bug(s) in the existing codebase and fix them, not to simply see a problem description and solve it.
 5. Do not use external libraries to fix the code
-  * You may read the description on some of these examples and think, "Oh, I can just use XYZ npm package to do that!". Sure, there are lost of packages out there, but again, the point of this exercise is to find the bug(s) in the existing code and fix them. While these are contrived examples, part of this exercise is to understand an existing codebase and then be able to work within it.
-
-Question 01 -> Example 01
-Question 03 -> Example 02
-Question 04 -> Example 03
-Question 07 -> Example 04
-Question 02 -> Example 05
-Question 05 -> Example 06
-Question 06 -> Example 07
+    * You may read the description on some of these examples and think, "Oh, I can just use XYZ npm package to do that!". Sure, there are lots of packages out there, but again, the point of this exercise is to find the bug(s) in the existing code and fix them. While these are contrived examples, part of this exercise is to understand an existing codebase and then be able to work within it.
