@@ -12,7 +12,7 @@ function largestPalindromeProduct(digit) {
     }
 
     for (let i = 999; i > 99; i--) {
-        for (let j = 999; j > 99; j--) {
+        for (let j = 999; j > 99; i--) {
             let number = i * j;
             let str = number.toString();
             if (str === str.split("").reverse().join(""))
